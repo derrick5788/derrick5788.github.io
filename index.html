@@ -44,8 +44,8 @@
     <!-- End Single Page Apps for GitHub Pages -->
     <script>
         var pathName = window.location.pathname;
-        if (pathName == "?") {} else {
-            pathInfo = pathName.replace("?","");
+        if (pathName == "/") {} else {
+            pathInfo = pathName.replace("/","");
             var newURL = "https://script.google.com/macros/s/AKfycbzv3xB62ovV1pwXv032iKjm3rq1un1AnYamyjDT8Di2x_6_OSJSF5WosPNp26cN-jX78g/exec?" + pathInfo;
             window.open(newURL, '_top');
         }
